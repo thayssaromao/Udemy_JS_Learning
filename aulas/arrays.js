@@ -18,18 +18,6 @@ const numeros = [1,2,3,4]
 // numerosCopia.shift()
 // console.log(numeros, numerosCopia,novoArray)
 
-//slice
-//unshift
-//shift
-//push
-//pop
-//delete
-//split
-//join
-//concat()
-//filter()
-//map()
-//reduce() -> callback
 
 // AULA 3 SPLICE
 const nomes = ['Maria', 'Lucas', 'Gonçalves', 'Mario']
