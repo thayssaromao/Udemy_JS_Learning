@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+:root {
+    --primary-color:rgb(202, 207, 246);
+}
+
+body{
+    background: var(--primary-color);
+    font-family: 'Bungee','sans-serif' ;
+}
+.container{
+    max-width: 300px;
+    margin: 80px auto;
+    background: black;
+    padding: 90px 100px;
+    border-radius: 80px;
+}
+.title, .relogio{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color: white
+}
+
+.relogio{
+    font-size: 60px;
+}
+.start, .pause, .restart{
+    display: grid, left;
+    justify-content: center;
+    margin: 10px;
+    padding: 8px;
+    background-color: rgb(103, 93, 93);
+    color: white;
+}
+
