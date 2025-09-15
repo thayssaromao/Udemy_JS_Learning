@@ -14,30 +14,29 @@
   <section class="container">
     <h1>Formulário de Cadastro</h1>
     <ul>
-      <li>REGRA 1</li>
-      <li>REGRA 2</li>
-      <li>REGRA 3</li>
-      <li>REGRA 4</li>
+      <li>Nenhum campo pode estar em branco</li>
+      <li>Usuário deverá ter entre 3 e 12 caracteres </li>
+      <li>Senha deve ter de 6 a 12 caracteres</li>
     </ul>
 
     <form action="/" method="POST" class="formulario">
       <label>Nome</label>
-      <input type="tex", class="nome">
+      <input type="tex", class="nome validar">
       
       <label>Sobrenome</label>
-      <input type"tex", class="sobrenome">
+      <input type"tex", class="sobrenome validar">
 
       <label>CPF</label>
-      <input type="tex", class="cpf">
+      <input type="tex", class="cpf validar">
 
       <label>Usuário</label>
-      <input type="tex", class="usuario">
+      <input type="tex", class="usuario validar">
 
       <label>Senha</label>
-      <input type="tex", class="senha">
+      <input type="password", class="senha validar">
 
       <label>Repetir Senha</label>
-      <input type="tex", class="repetir-senha">
+      <input type="password", class="repetir-senha validar">
 
       <button type="submit" class="btn-enviar">Enviar</button>
 
@@ -45,6 +44,7 @@
 
   </section>
 
+  <script src="validaCpf.js"></script>
   <script src="main.js"></script>
 </body>
 
