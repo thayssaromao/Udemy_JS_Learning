@@ -1,0 +1,115 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #121212;
+  color: #f0f0f0;
+  line-height: 1.6;
+  padding-bottom: 100px;
+}
+
+/* Cabeçalho */
+header {
+  background: linear-gradient(90deg, #1f1f1f, #2a2a2a);
+  padding: 2rem 1rem;
+  text-align: center;
+  border-bottom: 1px solid #333;
+}
+
+header h1 {
+  font-size: 2rem;
+  color: #00f0ff;
+  text-shadow: 0 0 5px #00f0ff88;
+  margin-bottom: 1rem;
+}
+
+/* Navegação */
+nav a {
+  color: #00f0ff;
+  margin: 0 1rem;
+  text-decoration: none;
+  position: relative;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a::after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: -4px;
+  left: 0;
+  background-color: #00f0ff;
+  transition: width 0.3s ease;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+nav a:hover::after {
+  width: 100%;
+}
+
+/* Área principal */
+main {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Conteúdo carregado */
+.resultado {
+  padding: 2rem;
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  border: 1px solid #333;
+  box-shadow: 0 0 10px rgba(0, 240, 255, 0.1);
+  transition: all 0.3s ease;
+  min-height: 150px;
+}
+
+/* Loading estilizado */
+#loading {
+  text-align: center;
+  margin-top: 1rem;
+  font-weight: bold;
+  color: #00f0ff;
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0% { opacity: 0.3; }
+  50% { opacity: 1; }
+  100% { opacity: 0.3; }
+}
+
+/* Erro */
+.erro {
+  color: #ff4c4c;
+  font-weight: bold;
+  background: #2a0000;
+  padding: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ff4c4c55;
+}
+
+/* Rodapé */
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #1f1f1f;
+  color: #aaa;
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 0.9rem;
+  border-top: 1px solid #333;
+}
