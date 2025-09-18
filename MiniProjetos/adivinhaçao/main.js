@@ -24,7 +24,7 @@ async function loadPg(elemento){
         document.getElementById('loading').hidden = true
 
         loadResult(html)
-    }catch(err0) {
+    }catch(erro) {
         document.getElementById('loading').hidden = true
 
         console.log(erro)

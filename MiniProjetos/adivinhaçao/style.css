@@ -113,7 +113,7 @@ footer {
   font-size: 0.9rem;
   border-top: 1px solid #333;
 }
-input{
+.input-numero{
   padding: 2rem;
   background-color: #ffffff;
   border-radius: 12px;
