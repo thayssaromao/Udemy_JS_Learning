@@ -21,7 +21,7 @@ header {
   border-bottom: 1px solid #333;
 }
 
-header h1 {
+header h1, h2{
   font-size: 2rem;
   color: #00f0ff;
   text-shadow: 0 0 5px #00f0ff88;
@@ -113,3 +113,12 @@ footer {
   font-size: 0.9rem;
   border-top: 1px solid #333;
 }
+input{
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  border: 1px solid #088591;
+  box-shadow: 0 0 10px rgba(41, 241, 255, 0.1);
+  min-height: 10px;
+}
+
