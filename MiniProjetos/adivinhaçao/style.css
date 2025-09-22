@@ -122,3 +122,16 @@ footer {
   min-height: 10px;
 }
 
+.input-numero:hover{
+  border-color: #00f0ff;
+}
+.btn-enviar{
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.btn-enviar:hover{
+  color: #00f0ff;
+  background-color: #1e1e1e;
+}
