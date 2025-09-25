@@ -1,0 +1,22 @@
+.box{
+    background-color: red;
+    height: 150px;
+    
+}
+.col{
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    gap: 20px;
+    padding: 10px;
+}
+
+@media (max-width:450px) {
+    .col{
+        
+        grid-template-columns: 1fr 1fr;
+    }
+    .box{
+        background-color: green;
+    }
+}
